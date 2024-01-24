@@ -4,6 +4,9 @@ import java.util.HashSet;
 
 public class SlidingWindowFixedSize {
 
+    private String test1;
+    private String test2;
+
     // Check if array contains a pair of duplicate values,
     // where the two duplicates are no farther than k positions from 
     // eachother (i.e. arr[i] == arr[j] and abs(i - j) + 1 <= k).
@@ -156,5 +159,13 @@ public class SlidingWindowFixedSize {
 //        String word1 = "abcd", word2 = "pq";
 //
 //        System.out.println(mergeStrings(word1, word2));
+    }
+
+    @Override
+    public String toString() {
+        return "SlidingWindowFixedSize{" +
+                "test1='" + test1 + '\'' +
+                ", test2='" + test2 + '\'' +
+                '}';
     }
 }
